@@ -4,10 +4,10 @@ import { randomBytes } from "crypto"
 import bodyParser from "body-parser"
 import { Telegraf, session } from "telegraf"
 
-const BOT_TOKEN = "BOT_TOKEN"
+const BOT_TOKEN = "7817695793:AAFCjl9pjtuL1fG39pELGu2iysCgvILHzRo"
 const VERCEL_URL = "VERCEL_URL"
-const FIREBASE_DB_URL = "DATABASE_URL"
-const ADMIN_ID = "USERID"
+const FIREBASE_DB_URL = "https://zhacker-39e82-default-rtdb.firebaseio.com/"
+const ADMIN_ID = "7149492867"
 
 const bot = new Telegraf(BOT_TOKEN)
 const app = express()
