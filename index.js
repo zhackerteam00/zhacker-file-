@@ -45,7 +45,7 @@ bot.start(async (ctx) => {
   } catch {}
 
   await ctx.replyWithHTML(
-    `👋<b>Welcome <a href="tg://user?id=${id}">${name}</a>,\n\nI am here to host your file for free. Share me file which should be less than 30 mb</b>`,
+    `👋<b>Welcome <a href="tg://user?id=${id}">${name}</a>,\n\nI am here to host your file for free. Share me file which should be less than 30 mb Telegram channel @zhackerteam00</b>`,
     { reply_to_message_id: ctx.message.message_id }
   )
 })
